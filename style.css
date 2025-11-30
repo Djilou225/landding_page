@@ -13,4 +13,136 @@ a {
     display: flex;
     justify-content: space-around;
     gap: 40px;
+    padding-bottom: 50px;
+    background-color: #1f2937;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px; /* optional */
+  border: 4px solid #3882f6;   /* blue border */
+  border-radius: 10px;   
+}
+.low_header {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10x;
+}
+.img {
+  position: relative;
+  display: inline-block;
+}
+
+.img .credit{
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  font-size: 10px;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+p {
+  margin: 0;
+  line-height: 1.5;
+  max-width: 400px;
+  padding-bottom: 20px;
+}
+.Books {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-text {
+  margin: 0;
+  max-width: 200px;
+  padding-bottom: 10px;
+  gap: 8px;
+
+}
+.book {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  
+}
+.Self-Improvement .credit{
+  
+  font-size: 10px;
+  color: #777;
+}
+
+.Science .credit {
+  font-size: 10px;
+  color: #777;
+}
+.Fiction .credit {
+  font-size: 10px;
+  color: #777;
+}
+.Philosophy .credit {
+  font-size: 10px;
+  color: #777;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  background-color: #E5E7EB;
+}
+.Quote {
+  width: 500px;
+  font-size: 36px;
+  color: #1f2937;
+}
+.author {
+  align-self: flex-end;
+  padding-bottom: 5px;
+  padding-right: 7px;
+  font-size: 30px;
+}
+.barQuontenar {
+  width: 70%;                     /* not full width – change as you like */
+  background-color: #3882f6;      /* blue like the Odin Project example */
+  padding: 20px 30px;
+  border-radius: 10px;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+}
+.barr h4{
+  margin: 0;
+  font-size: 20px;
+}
+.barr p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  max-width: 350px;
+}
+.singupp {
+  padding: 10px 25px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.singupp :hover {
+  background-color: white;
+  color: #3882f6;
+  transition: 0.2s;
+}
+.bar{
+  background-color: #1f2937;
+  font-style: roboto;
+  color: #E5E7EB;
 }
